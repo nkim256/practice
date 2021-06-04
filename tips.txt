@@ -1,0 +1,5 @@
+tips from a reddit god:
+There are lots of different git workflows. I find it works best to create a feature branch from
+master. On the branch, do all your coding and testing. Push youur branc. Next merge origin/master into
+your branch to resolve conflicts. (in case you goof up, you still have master). Once conflicts are resolved,
+merge your branch into origin/master. Rinse and repeat!
